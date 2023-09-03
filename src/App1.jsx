@@ -1,5 +1,5 @@
-import './App.css'
 import React,{Component} from 'react';
+// import { Link } from 'react-router-dom'
 
 class List extends Component{
 
