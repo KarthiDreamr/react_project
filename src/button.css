@@ -1,5 +1,14 @@
+@keyframes colorCycle {
+  0% { background-color: red; }
+  33% { background-color: green; }
+  66% { background-color: blue; }
+  100% { background-color: red; }  
+}
+
+
 .button {
-  background-color: green; /* Custom background color */
+ /* Custom background color */
+  animation: colorCycle 3s linear infinite;
   color: #fff; /* Custom text color */
   border: none; /* Remove default button border */
   padding: 10px 20px; /* Adjust padding to your preference */
@@ -8,6 +17,5 @@
   border-radius: 13px; /* Rounded corners for the button */
 }
 
-.button:hover {
-  background-color: #0056b3; /* Custom color on hover */
-}
+
+

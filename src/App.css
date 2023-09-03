@@ -32,6 +32,7 @@
   }
 }
 
+
 .logo {
   height: 6em;
   padding: 1.5em;
@@ -39,7 +40,7 @@
   transition: filter 300ms;
 }
 .logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
+  filter: drop-shadow(0 0 2em white);
 }
 
 .todo:hover {
@@ -52,7 +53,7 @@
 
 
 .logo.react:hover {
-  filter: drop-shadow(0 0 2em #01b2e3aa) brightness(10);
+  filter: drop-shadow(0 0 2em #ffffff) brightness(10);
 }
 
 @keyframes logo-spin {
