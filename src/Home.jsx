@@ -1,4 +1,4 @@
-import reactLogo from './assets/react.svg'
+import reactLogo from './assets/tic_icon.svg'
 import { Link } from 'react-router-dom'
 import './Home.css'
 import './button.css'

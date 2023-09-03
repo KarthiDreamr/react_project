@@ -1,10 +1,10 @@
-function NoPage() {
+function ErrorPage() {
     return (
-        <div className="nopage">
+        <div className="errorPage">
             <h1>404 - Page Not Found</h1>
             <p>The page you are looking for does not exist.</p>
         </div>
     );
 }
 
-export default NoPage
+export default ErrorPage
