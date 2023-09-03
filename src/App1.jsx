@@ -1,7 +1,7 @@
 import './App.css'
 import React,{Component} from 'react';
 
-class App extends Component{
+class List extends Component{
 
   constructor(props){
     super(props)
@@ -11,8 +11,8 @@ class App extends Component{
   render(){
     return(
       <>
-        <ul class="list-group">
-          {this.list.map((l,i) => <li key={i} class="list-group-item">{l}</li> )}
+        <ul>
+          {this.list.map((l,i) => <li key={i} >{l}</li> )}
         </ul>
       </>
     );
