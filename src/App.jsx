@@ -15,6 +15,8 @@ function App() {
       <div >
       <h1 className='todo'>To-Do List</h1>
       <p>Stay Organized, Achieve More.</p>
+      <br />
+      <button type='button' bgColor='green'>Start Organising</button>
       </div>
       </div>
     </>
