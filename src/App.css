@@ -52,7 +52,7 @@
 
 
 .logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa) brightness(20);
+  filter: drop-shadow(0 0 2em #01b2e3aa) brightness(10);
 }
 
 @keyframes logo-spin {
