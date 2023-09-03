@@ -1,22 +1,24 @@
+import { useState } from 'react'
+import reactLogo from './assets/react.svg'
+// import viteLogo from '/vite.svg'
 import './App.css'
-import React,{Component} from 'react';
 
-class App extends Component{
+function App() {
+  const [count, setCount] = useState(0)
 
-  constructor(props){
-    super(props)
-    this.list = ["one","two","three","four"];
-  }
-
-  render(){
-    return(
-      <>
-        <ul class="list-group">
-          {this.list.map((l,i) => <li key={i} class="list-group-item">{l}</li> )}
-        </ul>
-      </>
-    );
-  }
+  return (
+    <>
+    <div className='card'>
+      <div>
+          <img src={reactLogo} className="logo" />
+      </div>
+      <div >
+      <h1 className='todo'>To-Do List</h1>
+      <p>Stay Organized, Achieve More.</p>
+      </div>
+      </div>
+    </>
+  )
 }
 
 export default App
